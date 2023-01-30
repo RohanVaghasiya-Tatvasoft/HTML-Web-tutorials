@@ -1,1 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+       
 
+              <div class="topnav">
+                
+                <a href="#about"><img src="images/menu-bar.svg" alt=""></a>
+                <img src="images/header-logo.svg" alt="">
+                <span class="srch">
+                    <img src="images/search-icon.svg" height="30px" width="30px" alt="">
+                    
+                    <input type="text" placeholder="Search..">
+                </span>
+                <a href="#"><img src="images/notification-icon.svg" alt=""></a>
+                <a href="#"><img src="images/profile.png" alt=""></a>
+                <span>Jhon Doe</span>
+                <a href="#"><img src="images/downward-arrow.svg" alt=""></a>
+              </div>
+
+
+             
+        </header>
+    <br>
+
+          <div class="sidebar"> 
+            <a href="#"><i><img class="sdbarimg" src="images/dashboard-default.svg" alt=""></i> <span class="snglrow">Dashboard</span> </a>
+            <a href="#"><i><img class="sdbarimg" src="images/graph-active.svg" alt=""></i> Analysis</a>
+            <a href="#"><i><img class="sdbarimg" src="images/inbox-default.svg" alt=""></i> Inbox</a>
+            <a href="#"><i><img class="sdbarimg" src="images/clock-default.svg" alt=""></i> History</a>
+            <a href="#"><i><img class="sdbarimg" src="images/user-default.svg" alt=""></i> Users</a>
+            <a href="#"><i><img class="sdbarimg" src="images/maintenance-default.svg" alt=""></i> Maintenance</a>
+            <a href="#"><i><img class="sdbarimg" src="images/setting-default.svg" alt=""></i> Setting </a>
+        </div>
+
+    
+       
+              
+        <div class="main">
+            <h3>Analysis</h3>
+            <h4>One Column</h4>
+            <div class="part-1">
+                <div class="container-1">
+                    <div class="row">
+                      
+                      <div class="col-lg-12"><input type="text" placeholder="name" id="in_name" ></div>
+
+                    </div>
+                </div>
+                <div class="container-2">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="dropdown">
+                                <button class="dropbtn btn btn-success col-12">Dropdown</button>
+                                <div class="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-3">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="mb-3">
+                                
+                                <textarea class="form-control" placeholder="Multiple line" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="part-2">
+                <h4>Two Column</h4>
+                <div class="container-4">
+                    <div class="row">
+                      
+                      <div class="col-lg-6"><input type="text" placeholder="name" id="in_name" ></div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" class="form-control input-lg" />
+                        </div>
+                        
+                      </div>
+                        
+                    </div>
+                    <div class="row">
+                      
+                        <div class="col-lg-6"><input type="password" placeholder="name" id="pwd" ></div>
+                            <div class="col-lg-6">
+                                <div class="dropdown">
+                                    <button class="dropbtn btn btn-success col-12">Dropdown</button>
+                                        <div class="dropdown-content">
+                                            <a href="#">Link 1</a>
+                                            <a href="#">Link 2</a>
+                                            <a href="#">Link 3</a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+            
+            <div class="part-3">
+                <h4>Three Column</h4><br>
+                <div class="container-5">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>Focus</label>
+                                <input type="text" class="form-control input-lg" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" class="form-control input-lg" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>Disabled</label>
+                                <input type="text" class="form-control input-lg" id="i_name" placeholder="JohnDoe" name="lname" disabled  />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="part-4">
+                <h4>Four Column</h4><br>
+                    <div class="container-6">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label>Designation</label>
+                                    <input type="text" class="form-control input-lg" />
+                                </div>
+                                <p>Enter valid data</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="text" placeholder="name" id="in_name" >
+                                <p>Enter your full name as per ID</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label>Username</label>
+                                    <input type="text" class="form-control input-lg" />
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select </option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+               
+            <div class="part-5">
+                <h4>Other Design Elements</h4>
+                <div class="File-upload"></div>
+                    <h5>File Upload</h5>
+                <!-- <div class="mb-3">
+                    <input class="form-control" type="file" id="formFile">
+                  </div> -->
+                    <div class="image-upload">
+                        
+                        <label for="file-input">
+                        <img src="images/cloud-upload-icon.svg"/><span class="text-danger">Upload</span>
+                        </label>
+                        <input id="file-input" type="file" />
+                    
+                    </div>
+                </div>
+
+                <div class="RadioButton">
+                    <h4>Radio Button</h4>
+
+                        <div class="inln1">
+                        Option 1
+                        <input type="radio" name="radio" id="radio1"  />
+                        </div>
+
+                        <div class="inln1">
+                        Option 2
+                        <input  type="radio" name="radio" id="radio2" checked/>
+                        </div>
+                </div>
+
+                <div class="Ckbox">
+                    <h4>Checkbox</h4>
+                    <div class="row">
+                        <div class="form-check col-lg-6">
+                            Default checkbox
+                            <input class="form-check-input" type="checkbox"  value="" id="flexCheckDefault">
+                            
+                        </div>
+                        <div class="form-check col-lg-6">
+                            Checked checkbox
+                            <input class="form-check-input text-danger" type="checkbox" value="" id="flexCheckChecked" checked>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Snackbar">
+                    <h4>Snackbar</h4>
+                    <div class="container-7">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class=" alert alert-primary alert1" role="alert">
+                                    <img src="images/error-icon.svg" height="30px" width="30px" alt="">
+                                    <span>This is an error message</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="alert alert-primary alert2" role="alert">
+                                    <img src="images/info-icon.svg"height="30px" width="30px" alt="">
+                                    <span>This is an information message!</span>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 alrtmsg">
+                                <div class="alert alert-primary alert3" role="alert">
+                                    <img src="images/warning-icon.svg"height="30px" width="30px" alt="">
+                                    <span>This is a warning message!</span>
+                                  </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="alert alert-primary alert4" role="alert">
+                                    <img src="images/success-icon.svg" height="30px" width="30px" alt="">
+                                    <span>This is an success message!</span>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Call_to_an_action">
+                    <h4>Call to an action</h4>
+                    <div class="row">
+                        <div >
+                            <button type="button" class="btn btn-danger btn1" >Primary</button>
+                            <button type="button" class="btn btn-danger btn2" >Primary</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Tabs">
+                    <h4>Tabs</h4>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        
+                        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button> -->
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <!-- <a class="nav-item nav-link active" href="#">Tab1 <span class="sr-only">(current)</span></a> -->
+                            <a class="nav-item nav-link" href="#">Tab1</a>
+                            <a class="nav-item nav-link" href="#">Tab2</a>
+                            <a class="nav-item nav-link" href="#">Tab3</a>
+                            
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+
+        </div>
+        </body>
+        </html>
