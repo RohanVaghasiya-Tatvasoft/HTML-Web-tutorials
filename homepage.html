@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Login</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
 <body>
-    <div class="container">
-    <div class="row ">
-     <div class="logo col-md-4">
-        <img src="images/hero-image.png" alt="not load">
-     </div>
-     <div class="login col-md-5">
-        <img src="images/logo.svg" alt="not load">
-        <p class="title mt-3">We are <b style="color: #c22d2d;">experts</b> in bussiness, marketing, growth, & sales.</p>
-        <p class="a"> Login into Your Account</p>
-        <input type="text" class="form-control" id="inputUsername" placeholder="Username">
-        <input type="password" class="form-control mt-3" id="inputPassword" placeholder="Password">
-        <div class="button d-flex justify-content-between mt-3">
-            <button type="button" class="btn btn-danger border rounded-pill" >Login</button>
-            <span class="text-muted pt-2">Forgot Password?</span>
+    <div class="main">
+        <div class="left">
+            <img src="images/hero-image.png" alt="logo" id="logo">
         </div>
-        <div class="register mt-3">
-        <span class="text-muted">Are you a new Member?</span><span style="color: #c22d2d;cursor: pointer;">Register here</span>
+        <div class="right">
+            <img src="images/logo.svg" alt="company" id="company">
+            <p id="first">
+                We  are  <strong id="red">expert  </strong>in  business,<br>  marketing,  growth  &  sales.
+            </p> 
+            <p id="second">
+                Login into your account
+            </p>
+            <input type="text" id="username" placeholder="Username">
+            <input type="text" id="password" placeholder="Password">
+            <button id="Lbutton"">Login</button>
+            <a id="Fpass" href="Index.html">Forget Password?</a>
+            <p id="register">
+                Are you new member? <a id="registerlink" href="Index.html">Register Here</a>
+            </p>
         </div>
-     </div>
     </div>
-</div>
 </body>
+
 </html>
